@@ -4,7 +4,7 @@ const content = document.querySelector('#content')
 // array of images, brand, color, size, price
 const DeTails = [
     {
-        slideImage: "/asserts/black-white-nike-removebg-preview.png",
+        slideImage: "./asserts/black-white-nike-removebg-preview.png",
         brand: "Nike",
         color: "Black & white",
         size: "size 30",
@@ -12,7 +12,7 @@ const DeTails = [
     },
 
     {
-        slideImage: "/asserts/pink_nike_shoe-removebg-preview.png",
+        slideImage: "./asserts/pink_nike_shoe-removebg-preview.png",
         brand: "Nike",
         color: "Pink & white",
         size: "size 45",
@@ -20,7 +20,7 @@ const DeTails = [
     },
 
     {
-        slideImage:"/asserts/yellow-white_nike-removebg-preview.png",
+        slideImage:"./asserts/yellow-white_nike-removebg-preview.png",
         brand: "Nike",
         color: "Yellow & white",
         size: "20",
@@ -28,7 +28,7 @@ const DeTails = [
     },
 
     {
-        slideImage:"/asserts/black-white-nike-removebg-preview.png",
+        slideImage:"./asserts/black-white-nike-removebg-preview.png",
         brand: "Nike",
         color: "Yellow & white",
         size: "40",
@@ -36,7 +36,7 @@ const DeTails = [
     },
 
     {
-        slideImage:"asserts/white_nike_shoe-removebg-preview.png",
+        slideImage:"./asserts/white_nike_shoe-removebg-preview.png",
         brand:"Nike",
         color: "White",
         size: "42",
@@ -75,4 +75,5 @@ const updateSlide = () => {
 }
 
 //add event listener
+
 btn.addEventListener("click", updateSlide)
